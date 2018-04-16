@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerHeaderLayout"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:background="@drawable/drawer_header_background">
+
+    <TextView
+        android:id="@+id/drawerHeader_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="학번"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:id="@+id/drawerHeader_name"
+        android:textSize="25sp"
+        android:layout_below="@+id/drawerHeader_id"
+        android:layout_toRightOf="@+id/drawerHeader_dept"
+        android:layout_toEndOf="@+id/drawerHeader_dept" />
+
+    <TextView
+        android:id="@+id/drawerHeader_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이메일"
+        android:textSize="25sp"
+        android:layout_below="@+id/drawerHeader_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="학과"
+        android:textSize="25sp"
+        android:id="@+id/drawerHeader_dept"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/drawerHeader_id"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

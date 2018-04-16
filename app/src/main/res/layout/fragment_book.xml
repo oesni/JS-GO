@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="대출 현황"
+            android:id="@+id/book_current"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:elevation="2dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="도서 검색"
+            android:id="@+id/book_search"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:elevation="2dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="희망도서 신청"
+            android:id="@+id/book_want"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:elevation="2dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="정석애서"
+            android:id="@+id/book_love"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:elevation="2dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="신착도서"
+            android:id="@+id/book_new"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:elevation="2dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="마일리지"
+            android:id="@+id/book_mileage"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:elevation="2dp"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
+

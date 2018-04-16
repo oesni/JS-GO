@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    app:elevation="8dp"
+    app:cardCornerRadius="6dp"
+    android:layout_marginBottom="8dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="대출 도서"
+            android:id="@+id/titleLabel"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="도서명 : "
+            android:id="@+id/bookLabel"
+            android:textSize="20sp"
+            android:layout_alignBaseline="@+id/bookName"
+            android:layout_alignBottom="@+id/bookName"
+            android:layout_alignLeft="@+id/titleLabel"
+            android:layout_alignStart="@+id/titleLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="book name"
+            android:textSize="20sp"
+            android:id="@+id/bookName"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/titleLabel"
+            android:layout_toRightOf="@+id/bookLabel"
+            android:layout_toEndOf="@+id/bookLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="반납예정일"
+            android:id="@+id/bookDue"
+            android:layout_below="@+id/bookName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="대출일"
+            android:id="@+id/bookLent"
+            android:layout_below="@+id/bookDue"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
